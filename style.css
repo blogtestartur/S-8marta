@@ -39,7 +39,7 @@ ul .logo a{
   text-align: center;
 
     
-    background: url(img/flowers_339.gif);
+    background: url(flowers_339.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -72,7 +72,7 @@ ul .logo a{
 }
 body{   background-repeat: no-repeat;
     background-size: cover;
-   background: url(img/34.jpg);
+   background: url(34.jpg);
 }
 @media (max-width:600px ){
     ul .logo a{
