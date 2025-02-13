@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.header{
+    background-color: aqua;
+    width: 100%;
+    height: 80px;
+     
+}
+.contianer{
+    max-width: 800px;
+    margin:auto;
+    border: 1px solid red;
+}
+.nav{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+ul .logo a{
+    color: rgb(26, 25, 27);
+    font-size: 50px;
+    text-decoration:underline;
+    text-transform: uppercase;
+}
+.link a{
+    transition: all .3s;
+    color: rgb(5, 5, 7);
+}
+.img img{
+    width: 200px;
+    z-index: 2;
+    /* left: 50%;
+    top: 50%;transform: translate(-50%, -50%); */
+  text-align: center;
+
+    
+    background: url(img/flowers_339.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.maincontent{  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main{position: relative;
+   margin-top: 110px; 
+}
+.link a:hover{
+    color: rgb(233, 16, 52);
+   font-size: 15px;
+}
+.text0{font-weight: bold;
+    color:rgb(183, 245, 12);
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+   margin-bottom: 15px;
+
+      
+}
+.text1{text-align: justify;
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 13px;
+    color: rgb(14, 2, 2);
+}
+.blog{margin: auto;
+width: 100%;
+}
+.blogi2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.blogi{text-align: center;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+    border-radius: 10%;
+    background-color: beige;
+    margin: 10px auto;
+    padding: 5px;
+}
+.blogimg img{
+    width: 100px;
+    border-radius: 20%;
+    height: 100px;
+}
+.blogtext{
+
+}
+.blo{
+ /* font-size: 10px;   */
+}
+
+.blogtext2{
+    font-size: 25px;
+    color: blue;
+}
+body{   background-repeat: no-repeat;
+    background-size: cover;
+   background: url(img/main2.jpg);
+}
+@media (max-width:600px ){
+    ul .logo a{
+        color: rgb(26, 25, 27);
+        font-size: 40px;
+
+        
+        
+} 
+.blogi{
+    width: 350px;
+
+} }
+@media (max-width:600px ){
+    ul .logo a{
+        color: rgb(26, 25, 27);
+        font-size: 20px;
+        
+        
+} }
