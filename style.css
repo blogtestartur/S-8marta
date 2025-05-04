@@ -1,1 +1,157 @@
-u
+
+Body {
+    Font-family: Arial, sans-serif;
+    Margin: 0;
+    Padding: 0;
+    Background-color: #f5f5f5;
+    background: rgb(82, 72, 100);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  *{
+    list-style: none;
+  }
+  .te{
+    text-align: justify;
+  }
+  Nav {
+    Background-color: #222;
+    Padding: 1em;
+  }
+  
+  Nav ul {
+    List-style: none;
+    Display: flex;
+    Flex-wrap: wrap;
+    Justify-content: center;
+    Gap: 1em;
+    Margin: 0;
+    Padding: 0;
+  }
+  
+  Nav ul li a {
+    Color: white;
+    Text-decoration: none;
+  }
+  
+  Main {
+    Padding: 2em;
+    Background-color: white;
+    Max-width: 1200px;
+    Margin: auto;
+  }
+  
+  Footer {
+    Text-align: center;
+    Padding: 1em;
+    Background-color: #222;
+    Color: white;
+    position: fixed;
+    Bottom: 0;
+    Width: 100%;
+  }
+  
+  .program {
+    Border: 1px solid #ddd;
+    Padding: 1em;
+    Margin-bottom: 1em;
+    Background-color: #f9f9f9;
+  }
+  
+  .contacts i {
+    Margin-right: 0.5em;
+  }
+  img{
+    width: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+.program img{
+  text-align: center;
+  margin: auto;
+  margin-bottom: 19px;
+}
+h1{
+  margin: auto;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(16, 248, 27);
+}
+  
+  .program{
+    margin: 15px;
+    padding: 10px;
+    width: 300px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fade-in{
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+   
+  }
+  .h22{
+    font-size: 35px;
+    color: rgb(83, 241, 10);
+  }
+  .target{
+    
+    font-size: 30px;
+   
+  
+  }
+  .con{
+    position: relative;
+  }
+  
+  @media (max-width: 768px) {
+    Nav ul {
+      Flex-direction: column;
+      Align-items: center;
+    }
+    .h22{
+      font-size: 25;
+    }
+    h1{
+       
+      font-size: 30px;
+       
+    }
+    Main {
+      Padding: 1em;
+    }
+    .program {
+      Width: 100%;
+    }
+    
+  Footer {
+ 
+    position: relative;
+    
+  }
+  .con1{
+    position: fixed;
+  }
+  .con2{
+    position: fixed;
+  }
+  }
+  
+  /* Анимация появления */
+  .fade-in {
+    Opacity: 0;
+    Animation: fadeIn ease-in 1s forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+  
